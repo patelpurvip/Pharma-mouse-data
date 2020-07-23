@@ -1,11 +1,18 @@
 # Pharma clinical mouse trial
 
 ## Background
-This project explores data from a sample anti-cancer pharmaceutical clincal trial. The data reflects clinical drug trials in mice aimed at screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. 
+This project explores data from a sample anti-cancer pharmaceutical clinical trial. The data reflects clinical drug trials in mice aimed at screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. 
 
-In this study, 250 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of a "drug of interest" - Capomulin - versus the other treatment regimens. 
+In this study, 250 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of a "drug of interest" - Capomulin - versus the three other potential treatment regimens. 
 
 Data analysis was done within a jupyter notebook, with some summary graphs produced using the Matplotlib library for Python. 
+
+## Analysis
+* Summary Table: Tumor Volume (mm3)
+* Number of Datapoints per Drug Regimen
+* Identifying the promising regimens
+* Analysis of Outliers
+* Specific sample data
 
 ## General Observations
 1. Capomulin and Ramicane both had the lowest overall average tumor volumes across all datapoints, as well as relatively low variance, standard deviation, and SEM - suggesting that the results for those two regimens were more positive and more consistent than the other regimens studied.
