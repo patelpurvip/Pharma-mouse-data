@@ -13,7 +13,11 @@ The summary data show that Capomulin had among the best results in terms of the 
 
 ![Summary Table](Images/drug_results_summary.png)
 
-* Number of Datapoints per Drug Regimen
+It may be useful to note that Capomuln and Ramicane also had the highest numbers of datapoints per drug regimen.  This could mean that outliers potentially had less effect on overall results (and on the summary statistics) than for regimens with fewer data points. 
+
+![Data Points Bar Graph](Images/data_points_bar.png)
+
+
 * Identifying the promising regimens
 * Analysis of Outliers
 * Specific sample data
