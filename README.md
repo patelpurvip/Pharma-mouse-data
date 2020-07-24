@@ -18,10 +18,16 @@ It may be useful to note that Capomuln and Ramicane also had the highest numbers
 ![Data Points Bar Graph](Images/datapoints_bar.png)
 
 
-* Identifying the promising regimens & Analysis of Outliers
+* Promising regimens & Analysis of Outliers
 Four regimens (Capomulin, Ramicane, Infubinol, and Ceftamin) were chosen for more detailed analysis. Looking at the final tumor values for each mouse in each regimen, box plots were generated for each regimen.  The results show that one sample for Infubinol was an outlier, but the other three regimens had no outliers in the data. 
 
-![Quartiles](Images/quartiles.png)
+Based on the IQRs, if there are any outliers in the data, they are most likley to be in the Infubinol or Ceftamin data groups. Ceftamin has the widest IQR, with Infubinol being the second highest. However this could be the result of a wider variance in the datapoints, instead of there being an outlier skewing the data. looking back at the Summary Data table created for Volume Growth, Infubinol has the widest variance between the 4 regimens being compared, with Ceftamn coming in second. Additionally, Infubinol also has the widest standard deviation of the four.
+
+While the presence of outliers is easy enough to check for with the quartile and IQR analysis, I usually prefer to simple graph the data as boxplots, to visually confirm outliers.  A look at the boxplots shows that it is in fact Infubinal that has an outlier within its dataset.
+
+![Boxplot & Quartiles](Images/boxplot_quartiles.png)
+
+
 
 
 * Specific sample data
