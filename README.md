@@ -6,6 +6,7 @@ This project uses sample (fake) data from an anti-cancer pharmaceutical clinical
 In this study, 250 mice identified with SCC tumor growth were treated through a variety of drug regimens. Tumor development was observed and measured over the course of 45 days. The purpose of the study was to compare the performance of a "drug of interest" - Capomulin - versus nine other potential treatment regimens. Source data was drawn from 2 datasets: metadata on each mouse used in the trials, and results of of the study that tracked tumor growth rates over the 45-day period.
 
 Data analysis was done with jupyter notebooks, with summary graphs produced using the Matplotlib and Pandas libraries for Python. 
+
 -----
 ## Analysis
 
