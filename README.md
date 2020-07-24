@@ -1,4 +1,4 @@
-# Pharma clinical mouse trial
+# Pharmaceutical clinical mouse trial
 
 ## Background
 This project uses sample (fake) data from a anti-cancer pharmaceutical clinical trial to explore data analysis through Pandas, and graph generation through both `matplotlib.plot()` and `pandas.DataFrame.plot()`. The data reflects clinical drug trials in mice aimed at screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. 
@@ -15,11 +15,11 @@ The summary data show that Capomulin had among the best results in terms of the 
 
 It may be useful to note that Capomuln and Ramicane also had the highest numbers of datapoints per drug regimen.  This could mean that outliers potentially had less effect on overall results (and on the summary statistics) than for regimens with fewer data points. On the other hand, this also means that the subjects for Capomulin and Ramicane lived longer, thus allowing collection of more data points. 
 
-![Data Points Bar Graph](Images/datapoints_bar.png) ![Data Points](Images/datapoints.png)
+![Data Points Bar Graph](Images/datapoints_bar.png)
 
 
 * Identifying the promising regimens & Analysis of Outliers
-Four of the most promising regimens (Capomulin, Ramicane, Infubinol, and Ceftamin) were chosen for more detailed analysis. Looking at the final tumor values for each mouse in each regimen, box plots were generated for each regimen.  The results show that one sample for Infubinol was an outlier, but the other three regimens had no outliers in the data. 
+Four regimens (Capomulin, Ramicane, Infubinol, and Ceftamin) were chosen for more detailed analysis. Looking at the final tumor values for each mouse in each regimen, box plots were generated for each regimen.  The results show that one sample for Infubinol was an outlier, but the other three regimens had no outliers in the data. 
 
 ![Quartiles](Images/quartiles.png)
 
