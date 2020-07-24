@@ -16,12 +16,13 @@ The summary data show that Capomulin had among the best results in terms of the 
 
 ![Summary Table](Images/drug_results_summary.png)
 
-It may be useful to note that Capomuln and Ramicane also had the highest numbers of datapoints per drug regimen.  This could mean that outliers potentially had less effect on overall results (and on the summary statistics) than for regimens with fewer data points. On the other hand, this also means that the subjects for Capomulin and Ramicane lived longer, thus allowing collection of more data points. 
+It may be useful to note that Capomulin and Ramicane also had the highest numbers of datapoints per drug regimen.  This could mean that outliers potentially had less effect on overall results (and on the summary statistics) than for regimens with fewer data points. On the other hand, this also means that the subjects for Capomulin and Ramicane lived longer, thus allowing collection of more data points. 
 
 ![Data Points Bar Graph](Images/datapoints_bar.png)
 
 
 ### 2. Promising regimens & Analysis of Outliers
+
 Four regimens (Capomulin, Ramicane, Infubinol, and Ceftamin) were chosen for more detailed analysis. Looking at the final tumor values for each mouse in each regimen, box plots were generated for each regimen.  The results show that one sample for Infubinol was an outlier, but the other three regimens had no outliers in the data. 
 
 Based on the IQRs, if there are any outliers in the data, they are most likley to be in the Infubinol or Ceftamin data groups. Ceftamin has the widest IQR, with Infubinol being the second highest. However this could be the result of a wider variance in the datapoints, instead of there being an outlier skewing the data. looking back at the Summary Data table created for Volume Growth, Infubinol has the widest variance between the 4 regimens being compared, with Ceftamn coming in second. Additionally, Infubinol also has the widest standard deviation of the four.
@@ -32,6 +33,8 @@ While the presence of outliers is easy enough to check for with the quartile and
 
 
 ### 3. Specific sample data
+(coming soon)
+
 -----
 ## General Observations
 1. Capomulin and Ramicane both had the lowest overall average tumor volumes across all datapoints, as well as relatively low variance, standard deviation, and SEM - suggesting that the results for those two regimens were more positive and more consistent than the other regimens studied.
