@@ -18,8 +18,12 @@ It may be useful to note that Capomuln and Ramicane also had the highest numbers
 ![Data Points Bar Graph](Images/datapoints_bar.png) ![Data Points](Images/datapoints.png)
 
 
-* Identifying the promising regimens
-* Analysis of Outliers
+* Identifying the promising regimens & Analysis of Outliers
+Four of the most promising regimens (Capomulin, Ramicane, Infubinol, and Ceftamin) were chosen for more detailed analysis. Looking at the final tumor values for each mouse in each regimen, box plots were generated for each regimen.  The results show that one sample for Infubinol was an outlier, but the other three regimens had no outliers in the data. 
+
+![Quartiles](Images/quartiles.png)
+
+
 * Specific sample data
 
 ## General Observations
