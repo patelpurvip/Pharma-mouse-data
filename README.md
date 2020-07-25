@@ -1,6 +1,6 @@
 # Pharmaceutical clinical mouse trial
 
-![Intro Image](Images/mousestudy_pic.jpe)
+![Intro Image](Images/mousestudy_pic.png)
 
 ## Background
 This project uses sample (fake) data from an anti-cancer pharmaceutical clinical trial to explore data analysis through Pandas, and graph generation through both `matplotlib.plot()` and `pandas.DataFrame.plot()`. The data reflects clinical drug trials in mice aimed at screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. 
