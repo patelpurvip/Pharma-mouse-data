@@ -33,7 +33,11 @@ While the presence of outliers is easy enough to check for with the quartile and
 
 
 ### 3. Specific sample data
-(coming soon)
+
+#### Capomulin Mouse t565
+To see the effect of the drug on tumor growth over time, I found it useful to map out the datapoints for one particular mouse in the Capomulin cohort.  Mouse t565 was chosen bcause it was one of the mice that lived the longest, and thus had more available datapoints to graph.  You can see from the plot that, at first, the tumor continued to grow and so it took at least 2 doses of the drug before a noticeable decreases in tumor growth was recorded (after day 10).  The tumor growth was at its lowest point on day 30, but after that the tumor growth began to increase despite addition doses of the drug.  
+
+![Mouse t565](Images/t565.png)
 
 -----
 ## General Observations
