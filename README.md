@@ -3,12 +3,24 @@
 ## Background
 This project uses sample (fake) data from an anti-cancer pharmaceutical clinical trial to explore data analysis through Pandas, and graph generation through both `matplotlib.plot()` and `pandas.DataFrame.plot()`. The data reflects clinical drug trials in mice aimed at screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. 
 
-In this study, 250 mice identified with SCC tumor growth were treated through a variety of drug regimens. Tumor development was observed and measured over the course of 45 days. The purpose of the study was to compare the performance of a "drug of interest" - Capomulin - versus nine other potential treatment regimens. Source data was drawn from 2 datasets: metadata on each mouse used in the trials, and results of of the study that tracked tumor growth rates over the 45-day period.
+In this study, 250 mice identified with SCC tumor growth were treated through a variety of drug regimens. Tumor development was observed and measured over the course of 45 days. The purpose of the study was to compare the performance of a "drug of interest" - Capomulin - versus nine other potential treatment regimens. Source data was drawn from 2 datasets: metadata on each mouse used in the trials (`Mouse_metadata.csv`), and results of of the study that tracked tumor growth rates over the 45-day period (`Study_results.csv`).
 
-Data analysis was done with jupyter notebooks, with summary graphs produced using the Matplotlib and Pandas libraries for Python. 
+Data analysis was done with jupyter notebooks, with summary graphs produced using the Matplotlib and Pandas libraries for Python.
+* the `Pharma-mouse-data-Matplotlib.ipynb` notebook houses the intial analysis, which includes soome additional data on gender of teh mice in the study, as well as initial versions of the same graphs plotted in both Matplotlib and Pandas. 
+* the `Pharma-mouse-data-FINAL.ipynb` notebook contains the final analysis summarized below, as well as cleaned up versions of the relevant graphs in --either-- Matplotlib --OR-- Pandas (but not both).
 
 -----
-## Analysis
+## General Observations
+1. Capomulin and Ramicane both had the lowest overall average tumor volumes across all datapoints, as well as relatively low variance, standard deviation, and SEM - suggesting that the results for those two regimens were more positive and more consistent than the other regimens studied.
+
+2. Capomulin and Ramicane had the most number of mice complete the study, while all other regimens observed a number of mice deaths across the duration of the study.
+
+3. Looking at the tumor growth in one of the Capomulin mice (Mouse t565), the results indicate that Capomulin does inhibit tumor growth, but only to a certain point (in this case, between time points 10 and 30). After that, the effectiveness of the drug seems to plateau tumor growth starts to increase again, even with the regimen.
+
+4. Looking at the data for the Capomulin and Ramicane mice, there is a positive correleation between the each mouse's weight and the volume of the tumor, meaning the larger the mouse, the larger the tumor. This indicates that mouse weight may be contributing to the effectiveness of any drug regimen, however this trend was less pronounced with Ramicane than with Capomulin.
+
+-----
+## Detailed Analysis
 
 ### 1. Summary Table: Tumor Volume (mm3)
 
@@ -41,16 +53,7 @@ To see the effect of the drug on tumor growth over time, I found it useful to ma
 
 
 #### Capomulin vs. Ramicane Mouse Weight vs. Tumor Volume
-For our two best performing drugs, there was one final analysis comparing the weight of each mouse to the average tumor volume (i.e. averaging all tumor measurements during the trial) for that mouse.  I used linear regression to illustrate the correlations more clearly. While there is a clear correlation between weight and average tumor volume for mice in both groups, the correlation is less promounced with the Ramicane mice.  
+For our two best performing drugs, there was one final analysis comparing the weight of each mouse to the average tumor volume (i.e. averaging all tumor measurements during the trial) for that mouse.  I used linear regression to illustrate the correlations more clearly. While there is a clear correlation between weight and average tumor volume for mice in both groups, indicating that mouse weight may be contributing to the effectiveness of any drug regimen, the correlation was less promounced with the Ramicane mice.  
 
 ![Weight vs. Tumor Volume](Images/Weight_vs_Tumor_volume.png)
 
-
-
------
-## General Observations
-1. Capomulin and Ramicane both had the lowest overall average tumor volumes across all datapoints, as well as relatively low variance, standard deviation, and SEM - suggesting that the results for those two regimens were more positive and more consistent than the other regimens studied.
-
-2. Looking at the tumor growth in one of the Capomulin mice (Mouse t565), the results indicate that Capomulin does inhibit tumor growth, but only to a certain point (in this case, between time points 10 and 30). After that, the effectiveness of the drug seems to plateau tumor growth starts to increase again, even with the regimen.
-
-3. Looking at the data for the Capomulin mice, there is a positive correleation between the each mouse's weight and the volume of the tumor, meaning the larger the mouse, the larger the tumor.
