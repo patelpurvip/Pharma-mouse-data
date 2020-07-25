@@ -29,7 +29,7 @@ Based on the IQRs, if there are any outliers in the data, they are most likley t
 
 While the presence of outliers is easy enough to check for with the quartile and IQR analysis, I usually prefer to simple graph the data as boxplots, to visually confirm outliers.  A look at the boxplots shows that it is in fact Infubinal that has an outlier within its dataset.
 
-![Boxplot & Quartiles](Images/boxplot_quartiles2.png)
+![Boxplot & Quartiles](Images/boxplot_quartiles.png)
 
 
 ### 3. Specific sample data
