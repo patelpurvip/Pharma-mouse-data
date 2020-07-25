@@ -54,7 +54,7 @@ To see the effect of the drug on tumor growth over time, I found it useful to ma
 ![Mouse t565](Images/t565.png)
 
 
-#### Capomulin vs. Ramicane Mouse Weight vs. Tumor Volume
+#### Linear Regression: Capomulin & Ramicane Mouse Weight vs. Tumor Volume
 For our two best performing drugs, there was one final analysis comparing the weight of each mouse to the average tumor volume (i.e. averaging all tumor measurements during the trial) for that mouse.  I used linear regression to illustrate the correlations more clearly. While there is a clear correlation between weight and average tumor volume for mice in both groups, indicating that mouse weight may be contributing to the effectiveness of the drug regimen, the correlation was less pronounced with the Ramicane mice.  
 
 ![Weight vs. Tumor Volume](Images/Weight_vs_Tumor_volume.png)
