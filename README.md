@@ -27,7 +27,7 @@ Four regimens (Capomulin, Ramicane, Infubinol, and Ceftamin) were chosen for mor
 
 Based on the IQRs, if there are any outliers in the data, they are most likley to be in the Infubinol or Ceftamin data groups. Ceftamin has the widest IQR, with Infubinol being the second highest. However this could be the result of a wider variance in the datapoints, instead of there being an outlier skewing the data. looking back at the Summary Data table created for Volume Growth, Infubinol has the widest variance between the 4 regimens being compared, with Ceftamn coming in second. Additionally, Infubinol also has the widest standard deviation of the four.
 
-While the presence of outliers is easy enough to check for with the quartile and IQR analysis, I usually prefer to simple graph the data as boxplots, to visually confirm outliers.  A look at the boxplots shows that it is in fact Infubinal that has an outlier within its dataset.
+While the presence of outliers is easy enough to check for with the quartile and IQR analysis, I usually prefer to simple graph the data as boxplots, to visually confirm outliers.  A look at the boxplots shows that it is in fact Infubinal that has an outlier within its dataset. We can also see that the final tumor volumes for Capomulin and Ramiance were noticeably lower overall, indicating better effectiveness of these drugs. 
 
 ![Boxplot & Quartiles](Images/boxplot_quartiles.png)
 
@@ -35,9 +35,17 @@ While the presence of outliers is easy enough to check for with the quartile and
 ### 3. Specific sample data
 
 #### Capomulin Mouse t565
-To see the effect of the drug on tumor growth over time, I found it useful to map out the datapoints for one particular mouse in the Capomulin cohort.  Mouse t565 was chosen bcause it was one of the mice that lived the longest, and thus had more available datapoints to graph.  You can see from the plot that, at first, the tumor continued to grow and so it took at least 2 doses of the drug before a noticeable decreases in tumor growth was recorded (after day 10).  The tumor growth was at its lowest point on day 30, but after that the tumor growth began to increase despite addition doses of the drug.  
+To see the effect of the drug on tumor growth over time, I found it useful to map out the datapoints for one particular mouse in the Capomulin cohort.  Mouse t565 was chosen bcause it was one of the mice that lived the longest, and thus had more available datapoints to graph.  You can see from the plot that, at first, the tumor continued to grow and so it took at least 2 doses of the drug before a noticeable decreases in tumor growth was recorded (after day 10).  The tumor growth was at its lowest point on day 30, but after that the tumor growth began to increase despite addition doses of the drug. 
 
 ![Mouse t565](Images/t565.png)
+
+
+#### Capomulin vs. Ramicane Mouse Weight vs. Tumor Volume
+For our two best performing drugs, there was one final analysis comparing the weight of each mouse to the average tumor volume (i.e. averaging all tumor measurements during the trial) for that mouse.  I used linear regression to illustrate the correlations more clearly. While there is a clear correlation between weight and average tumor volume for mice in both groups, the correlation is less promounced with the Ramicane mice.  
+
+![Weight vs. Tumor Volume](Images/Weight_vs_Tumor_volume.png)
+
+
 
 -----
 ## General Observations
