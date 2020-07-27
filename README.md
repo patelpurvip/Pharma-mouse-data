@@ -35,7 +35,7 @@ It may be useful to note that Capomulin and Ramicane also had the highest number
 ![Data Points Bar Graph](Images/datapoints_bar.png)
 
 
-### 2. Promising regimens & Analysis of Outliers
+### 2. Promising Regimens & Analysis of Outliers
 
 Four regimens (Capomulin, Ramicane, Infubinol, and Ceftamin) were chosen for more detailed analysis. Looking at the final tumor values for each mouse in each regimen, box plots were generated for each regimen.  The results show that one sample for Infubinol was an outlier, but the other three regimens had no outliers in the data. 
 
@@ -46,7 +46,7 @@ While the presence of outliers is easy enough to check for with the quartile and
 ![Boxplot & Quartiles](Images/boxplot_quartiles.png)
 
 
-### 3. Specific sample data
+### 3. Specific Sample Data
 
 #### Capomulin Mouse t565
 To see the effect of the drug on tumor growth over time, I found it useful to map out the datapoints for one particular mouse in the Capomulin cohort.  Mouse t565 was chosen because it did survive the entire study, but was also average in results for survivors, meaning that it showed neither among the best nor among the worst results for the surviving Capomulin cohort.  You can see from the plot that, at first, the tumor continued to grow and so it took at least 2 doses of the drug before noticeable decreases in tumor growth were recorded (after day 10).  The tumor growth was at its lowest point on day 30, but after that the tumor growth began to increase despite addition doses of the drug. 
