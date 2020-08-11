@@ -17,7 +17,7 @@ Data analysis was done with jupyter notebooks, with summary graphs produced usin
 
 2. Capomulin and Ramicane had the greatest number of mice complete the study, while all other regimens observed a number of mouse deaths across the duration of the study.
 
-3. Looking at the tumor growth in one of the Capomulin mice (Mouse t565), the results show that Capomulin did inhibit tumor growth for that particular mouse, but only to a certain point (in this case, between time points 10 and 30). After that, the effectiveness of the drug seems to plateau tumor growth starts to increase again, even with the regimen.
+3. Looking at the tumor growth in one of the Capomulin mice (Mouse t565), the results show that Capomulin did inhibit tumor growth for that particular mouse, but only to a certain point (in this case, between time points 10 and 30). After that, the effectiveness of the drug seems to plateau and tumor growth starts to increase again, even with continued administration of the drug regimen.
 
 4. Looking at the data for the Capomulin and Ramicane mice, there is a positive correlation between each mouse's weight and the volume of the tumor, meaning the larger the mouse, the larger the tumor. This indicates that mouse weight may be contributing to the effectiveness of any drug regimen, however this trend was less pronounced with Ramicane than with Capomulin.
 
@@ -49,7 +49,7 @@ While the presence of outliers is easy enough to check for with the quartile and
 ### 3. Specific Sample Data
 
 #### Capomulin Mouse t565
-To see the effect of the drug on tumor growth over time, I found it useful to map out the datapoints for one particular mouse in the Capomulin cohort.  Mouse t565 was chosen because it did survive the entire study, but was also average in results for survivors, meaning that it showed neither among the best nor among the worst results for the surviving Capomulin cohort.  You can see from the plot that, at first, the tumor continued to grow and so it took at least 2 doses of the drug before noticeable decreases in tumor growth were recorded (after day 10).  The tumor growth was at its lowest point on day 30, but after that the tumor growth began to increase despite addition doses of the drug. 
+To see the effect of the drug on tumor growth over time, I found it useful to map out the datapoints for one particular mouse in the Capomulin cohort.  Mouse t565 was chosen because it did survive the entire study, but was also average in results for survivors, meaning that it showed neither among the best nor among the worst results for the surviving Capomulin cohort.  You can see from the plot that, at first, the tumor continued to grow and so it took at least 2 doses of the drug before noticeable decreases in tumor growth were recorded (after day 10).  The tumor growth was at its lowest point on day 30, but after that the tumor growth began to increase again despite additional doses of the drug. 
 
 ![Mouse t565](Images/t565.png)
 
